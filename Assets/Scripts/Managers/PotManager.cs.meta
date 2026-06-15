@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 7ce52a13fbfc68f40ac1468905e689cd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - potBox: {fileID: 9197481963319205126, guid: c13e1a49fc1e2a54384d7f1a5cab4fb6, type: 3}
+  - totalPotBox: {fileID: 9197481963319205126, guid: c19bca562234d6a4f9c3eeed8d13b5ed, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

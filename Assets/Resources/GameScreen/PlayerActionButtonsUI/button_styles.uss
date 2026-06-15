@@ -1,0 +1,68 @@
+.raise_button, .fold_button, .call_button {
+    width: 130px;
+    height: 60px;
+    font-size: 25px;
+    -unity-font-style: bold;
+    -unity-font-definition: url("project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#LegacyRuntime");
+    color: rgb(255, 255, 255);
+
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 5px;
+}
+
+.raise_button, .fold_button, .call_button:hover{
+    cursor: url(/Assets/Resources/UI/Cursors/link.png) 0 0;
+}
+
+/* Raise button */
+.raise_button {
+    background-color: rgb(24, 53, 86);
+    border-left-color: rgb(25, 36, 66);
+    border-right-color: rgb(25, 36, 66);
+    border-top-color: rgb(25, 36, 66);
+    border-bottom-color: rgb(25, 36, 66);
+}
+
+/* Optional hover effect */
+.raise_button:hover {
+    background-color: rgb(30, 60, 100);
+}
+
+/* Fold button */
+.fold_button {
+    background-color: rgb(89, 23, 34);
+    border-left-color: rgb(65, 11, 22);
+    border-right-color: rgb(65, 11, 22);
+    border-top-color: rgb(65, 11, 22);
+    border-bottom-color: rgb(65, 11, 22);
+}
+
+/* Optional hover effect */
+.fold_button:hover {
+    background-color: rgb(100, 30, 40);
+}
+
+/* Call button */
+.call_button {
+    background-color: rgb(22, 80, 46);
+    border-left-color: rgb(24, 54, 27);
+    border-right-color: rgb(24, 54, 27);
+    border-top-color: rgb(24, 54, 27);
+    border-bottom-color: rgb(24, 54, 27);
+}
+
+/* Optional hover effect */
+.call_button:hover {
+    background-color: rgb(30, 90, 50);
+}

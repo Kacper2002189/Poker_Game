@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="start_button" src="project://database/Assets/Editor/GameScreen/PlayerActionButtonsUI/start_button.uxml?fileID=9197481963319205126&amp;guid=ff0d6865b62353e498493ac7d1a2c9bc&amp;type=3#start_button" />
+    <ui:Template name="quit_button" src="project://database/Assets/Editor/GameScreen/PlayerActionButtonsUI/quit_button.uxml?fileID=9197481963319205126&amp;guid=c6e5a6f1df8ff604db09f762dcdfb8be&amp;type=3#quit_button" />
+    <ui:GroupBox name="start_game_menu" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-direction: row; justify-content: space-evenly; width: 500px;">
+        <ui:Instance template="start_button" name="startGameBtn" />
+        <ui:Instance template="quit_button" name="quitBtn" />
+    </ui:GroupBox>
+</ui:UXML>

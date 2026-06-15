@@ -1,0 +1,28 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/GameScreen/PlayerActionButtonsUI/rise_slider_style.uss?fileID=7433441132597879392&amp;guid=6265359824b076648b35a92398e9ef69&amp;type=3" />
+    <Style src="project://database/Assets/Resources/GameScreen/PlayerActionButtonsUI/raise_menu_style.uss?fileID=7433441132597879392&amp;guid=c85b37023185fc049924828db5b264b8&amp;type=3" />
+    <ui:GroupBox name="raise_menu" style="height: auto; align-content: auto; align-self: auto; justify-content: flex-end; align-items: center; width: 650px; flex-wrap: nowrap;">
+        <ui:GroupBox name="quick_bet_buttons" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-items: center; justify-content: space-between; width: 100%; align-self: auto; align-content: auto; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
+            <ui:Button text="Min bet" enable-rich-text="false" emoji-fallback-support="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" name="min_bet" />
+            <ui:Button text="1/2" enable-rich-text="false" emoji-fallback-support="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" name="half_pot" />
+            <ui:Button text="3/4" emoji-fallback-support="false" enable-rich-text="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" name="three_quarter_pot" />
+            <ui:Button text="Pot" enable-rich-text="false" emoji-fallback-support="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" name="bet_pot_size" />
+            <ui:Button text="All in" name="all_in" />
+        </ui:GroupBox>
+        <ui:GroupBox name="button_slider_container" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-items: center; align-self: auto; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; width: 100%;">
+            <ui:GroupBox name="bet-amount-box" style="margin-right: 20px; padding-right: 12px; padding-left: 12px; padding-top: 10px;">
+                <ui:Label text="Amount:" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" emoji-fallback-support="false" enable-rich-text="false" name="bet_amount_label" />
+                <ui:Label text="$0" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" emoji-fallback-support="false" enable-rich-text="false" name="slider_bet_amount" />
+            </ui:GroupBox>
+            <ui:GroupBox name="raise_slider_box" style="margin-top: 1%; margin-bottom: 1%; width: 50%;">
+                <ui:Button name="adjust_slider_left" />
+                <ui:SliderInt label="SliderInt" value="0" high-value="100" fill="false" name="raise_amount_slider" class="slider" />
+                <ui:Button name="adjust_slider_right" />
+            </ui:GroupBox>
+            <ui:GroupBox name="confirm_bet_box" style="width: auto; margin-left: 20px;">
+                <ui:Button text="Bet" enable-rich-text="false" emoji-fallback-support="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" name="bet_button" style="margin-right: 10px;" />
+                <ui:Button enable-rich-text="false" emoji-fallback-support="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" name="back_button" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

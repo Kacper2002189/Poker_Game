@@ -1,0 +1,32 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="pot_box" src="project://database/Assets/Resources/GameScreen/PlayerBetUI/pot_box.uxml?fileID=9197481963319205126&amp;guid=c13e1a49fc1e2a54384d7f1a5cab4fb6&amp;type=3#pot_box" />
+    <ui:Template name="total_pot_box" src="project://database/Assets/Resources/GameScreen/PlayerBetUI/total_pot_box.uxml?fileID=9197481963319205126&amp;guid=c19bca562234d6a4f9c3eeed8d13b5ed&amp;type=3#total_pot_box" />
+    <ui:Template name="start_game_menu" src="project://database/Assets/Resources/GameScreen/PlayerActionButtonsUI/start_game_menu.uxml?fileID=9197481963319205126&amp;guid=391329344b539a94c919ae5bd46fa9ad&amp;type=3#start_game_menu" />
+    <Style src="project://database/Assets/Resources/GameScreen/PlayerBoxesUI/SimpleCustomEditor.uss?fileID=7433441132597879392&amp;guid=49a6b439d1d5bb44e9ac18c3f924168e&amp;type=3#SimpleCustomEditor" />
+    <ui:GroupBox name="gameUI" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; width: 100%; height: 100%; top: auto; justify-content: flex-end; visibility: visible; align-items: stretch; align-content: auto; flex-wrap: nowrap; flex-direction: column; align-self: auto;">
+        <ui:GroupBox name="game_box" style="justify-content: space-evenly; align-self: auto; align-content: auto; align-items: stretch; height: 83.5%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+            <ui:GroupBox name="groupBox1" style="flex-direction: row; flex-wrap: nowrap; align-items: flex-start; justify-content: space-evenly; align-self: auto; align-content: auto; width: auto; height: 17%; margin-top: 0%; margin-right: 23%; margin-bottom: 0%; margin-left: 23%; padding-top: 2%; padding-right: 0; padding-bottom: 0; padding-left: 0; top: auto; flex-grow: 0; -unity-background-scale-mode: scale-and-crop;">
+                <ui:VisualElement name="player3_box" style="flex-grow: 1; align-items: center;" />
+                <ui:VisualElement name="player4_box" style="flex-grow: 1; align-items: center;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="groupBox2" style="margin-top: 0%; margin-right: 0%; margin-bottom: 0%; margin-left: 0%; padding-top: 0%; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-direction: row; height: 66%; background-size: 100% 100%; align-items: auto; justify-content: center; align-self: auto; align-content: auto;">
+                <ui:GroupBox name="groupBox4" style="margin-top: 0; margin-right: 0%; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 2%; padding-bottom: 0; padding-left: 0; align-self: center; align-items: flex-end; justify-content: center; align-content: auto; flex-direction: column; width: 13.6%; height: auto;">
+                    <ui:VisualElement name="player2_box" style="flex-grow: 1;" />
+                </ui:GroupBox>
+                <ui:GroupBox name="pokerTable" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; width: 67%; height: 100%; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); flex-direction: column; justify-content: flex-start; align-self: auto; align-items: flex-start; align-content: auto; background-image: none;">
+                    <ui:Instance template="pot_box" name="pot_box" style="align-items: auto; top: 29.5%; align-self: center; justify-content: flex-start; align-content: auto; flex-direction: column;" />
+                    <ui:Instance template="total_pot_box" name="total_pot_box" style="position: absolute; top: 175px; left: 687px; display: none;" />
+                </ui:GroupBox>
+                <ui:GroupBox name="groupBox5" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0%; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 2%; width: 13.5%; height: auto; flex-direction: column; justify-content: flex-start; align-items: flex-start; align-content: auto; align-self: center;">
+                    <ui:VisualElement name="player5_box" style="flex-grow: 1;" />
+                </ui:GroupBox>
+            </ui:GroupBox>
+            <ui:GroupBox name="groupBox3" style="margin-top: 0%; margin-right: 0; margin-bottom: 0%; margin-left: 0; padding-top: 2%; padding-right: 0%; padding-bottom: 0%; padding-left: 0%; width: auto; height: 17%; flex-direction: row; align-items: flex-start; justify-content: center; align-content: center; bottom: 0%; align-self: auto;">
+                <ui:VisualElement name="player1_box" style="flex-grow: 1; align-items: center;" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:GroupBox name="menuContainer" style="margin-top: 0%; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 16.5%; -unity-text-align: upper-left; background-color: rgba(0, 0, 0, 0.51); justify-content: flex-start; align-content: auto; align-self: auto; align-items: center; flex-direction: row;">
+            <ui:Instance template="start_game_menu" style="display: flex; width: 100%; align-items: center;" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

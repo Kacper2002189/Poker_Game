@@ -1,0 +1,170 @@
+#raise_menu {
+    margin: 10px 0;
+    padding: 0;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#quick_bet_buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0 15px;
+    width: 100%;
+    justify-content: space-evenly;
+    color: white;
+}
+
+#quick_bet_buttons Button {
+    background-color: rgb(21, 26, 34);
+    border-color: rgb(61, 67, 80);
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+#quick_bet_buttons Button:hover {
+    background-color: rgb(27, 33, 43);
+    border-color: rgb(69, 74, 87);
+}
+
+#raise_slider_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2% 0;
+    padding: 0;
+    width: 100%;
+}
+
+#adjust_slider_left {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(21, 26, 34);
+    border-color: rgb(61, 67, 80);
+    border-width: 2px;
+    border-radius: 5px;
+    background-size: 50%;
+    color: white;
+}
+
+#adjust_slider_right {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(21, 26, 34);
+    border-color: rgb(61, 67, 80);
+    border-width: 2px;
+    border-radius: 5px;
+    background-size: 50%;
+    color: white;
+}
+
+#adjust_slider_left {
+    background-color: rgb(27, 33, 43);
+    border-color: rgb(69, 74, 87);
+}
+
+#adjust_slider_right:hover {
+    background-color: rgb(27, 33, 43);
+    border-color: rgb(69, 74, 87);
+}
+
+#adjust_slider_left {
+    background-image: url("project://database/Assets/Resources/UI/adjust-left.png?fileID=3615094704269242104&guid=385287200c189d045805a45d94b1696f&type=3#triangle-left-filled-svgrepo-com_0");
+}
+
+#adjust_slider_right {
+    background-image: url("project://database/Assets/Resources/UI/adjust-right.png?fileID=-5195807750267966750&guid=1c24d013a6f4bc648be768cf2ad871eb&type=3#triangle-right-filled-svgrepo-com_0");
+}
+
+#raise_ammount_slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#confirm_bet_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#confirm_bet_box Button {
+    border-width: 2px;
+    border-radius: 5px;
+    color: white;
+}
+
+#back_button {
+    height: 41px;
+    width: 41px;
+    background-image: url('/Assets/Resources/UI/back.png');
+    background-size: 50%;
+}
+
+#slider_bet_amount {
+    width: 50px;
+    margin: 0;
+    align-self: center;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+}
+
+#bet-amount-box {
+    color: white;
+    display: flex;
+    margin: 2px 30px 2px 4px;
+    padding: 10px 12px 10px 12px;
+    flex-direction: row;
+    background-color: rgb(21, 26, 34);
+    border-color: rgb(61, 67, 80);
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+#bet-amount-box Label {
+    -unity-text-align: middle-center;
+    margin: 0;
+    padding: 0;
+}
+
+#bet_amount_label {
+    align-self: center;
+}
+
+#bet_button {
+    margin-right: 30px;
+    width: 80px;
+    font-size: 18px;
+    padding: 7px;
+    -unity-font-style: bold;
+    background-color: rgb(24, 53, 86);
+    border-color: rgb(25, 36, 66);
+}
+
+#bet_button:hover {
+    background-color: rgb(30, 60, 100);
+}
+
+#back_button {
+    background-color: rgb(89, 23, 34);
+    border-color: rgb(65, 11, 22);
+}
+
+#back_button:hover {
+    background-color: rgb(100, 30, 40);
+}
+
+#raise_menu Button:hover {
+    cursor: url("project://database/Assets/Resources/UI/Cursors/link.png?fileID=2800000&guid=2f1e10c8cace66f4da0b4e8c2a82dccf&type=3#link") 0 0;
+}

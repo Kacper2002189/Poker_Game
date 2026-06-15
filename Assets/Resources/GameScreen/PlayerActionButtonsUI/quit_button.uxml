@@ -1,0 +1,4 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/GameScreen/PlayerActionButtonsUI/button_styles.uss?fileID=7433441132597879392&amp;guid=da2416887a6e5864da56a41103299d21&amp;type=3#button_styles" />
+    <ui:Button text="Quit" name="quit_button" selectable="false" class="fold_button" style="background-color: rgb(166, 40, 32); border-left-color: rgb(115, 7, 9); border-right-color: rgb(115, 7, 9); border-top-color: rgb(115, 7, 9); border-bottom-color: rgb(115, 7, 9);" />
+</ui:UXML>

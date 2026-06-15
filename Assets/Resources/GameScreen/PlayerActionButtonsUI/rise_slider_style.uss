@@ -1,0 +1,22 @@
+.slider {
+    width: 80%;
+}
+
+.slider Label {
+    display: none;
+}
+
+.slider #unity-dragger {
+    background-color: #151A22;
+    border-color: #3D4350;
+    width: 30px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.slider #unity-tracker {
+    background-color: #3D4350;
+    border-width: 1px;
+    border-color: grey;
+}
+

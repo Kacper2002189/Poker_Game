@@ -1,0 +1,8 @@
+.menu_buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.actionButton {
+    margin-left: 50px;
+}

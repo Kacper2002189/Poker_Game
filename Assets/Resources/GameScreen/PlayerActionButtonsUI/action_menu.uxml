@@ -1,0 +1,16 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="call_button" src="project://database/Assets/Resources/GameScreen/PlayerActionButtonsUI/call_button.uxml?fileID=9197481963319205126&amp;guid=edee0e21c583e1d4ca1e935ef482ebb8&amp;type=3#call_button" />
+    <ui:Template name="fold_button" src="project://database/Assets/Resources/GameScreen/PlayerActionButtonsUI/fold_button.uxml?fileID=9197481963319205126&amp;guid=0253441d078f8294d9e1914b5118b289&amp;type=3#fold_button" />
+    <ui:Template name="raise_button" src="project://database/Assets/Resources/GameScreen/PlayerActionButtonsUI/raise_button.uxml?fileID=9197481963319205126&amp;guid=cdf2fb77ad9bdc0438ad452ca3b88163&amp;type=3#raise_button" />
+    <ui:Template name="quit_button" src="project://database/Assets/Resources/GameScreen/PlayerActionButtonsUI/quit_button.uxml?fileID=9197481963319205126&amp;guid=c6e5a6f1df8ff604db09f762dcdfb8be&amp;type=3#quit_button" />
+    <ui:GroupBox name="action_menu" style="flex-direction: row; justify-content: flex-end; align-items: center; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; width: 100%; align-content: auto;">
+        <ui:GroupBox name="button_container" style="flex-direction: row; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; width: 50%; justify-content: center;">
+            <ui:Instance template="call_button" name="callBtn" style="padding-left: 0; margin-right: 5%;" />
+            <ui:Instance template="fold_button" name="foldBtn" style="margin-right: 5%;" />
+            <ui:Instance template="raise_button" name="raiseBtn" />
+        </ui:GroupBox>
+        <ui:GroupBox name="quit_button_container" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-self: auto; align-items: center; width: 25%; justify-content: space-between;">
+            <ui:Instance template="quit_button" name="quitBtn" style="margin-left: 0; align-self: auto; align-content: auto; margin-top: 0; margin-right: 0; margin-bottom: 0;" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

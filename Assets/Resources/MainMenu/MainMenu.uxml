@@ -1,0 +1,39 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/MainMenu/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=17a4fd0a6156f7c4cb9c92be54f9bcdb&amp;type=3#MainMenuStyle" />
+    <ui:GroupBox name="ScreenSpace" style="display: flex;">
+        <ui:GroupBox name="MainMenu" style="align-items: center; display: none; width: 500px; padding-bottom: 50px; padding-top: 60px;">
+            <ui:Label text="Poker Game" name="TitleLabel" style="margin-bottom: 40px;" />
+            <ui:GroupBox name="ButtonsContainer" style="width: 75%; justify-content: space-around; align-items: center; align-content: auto;">
+                <ui:TextField placeholder-text="Enter Username" is-delayed="false" hide-placeholder-on-focus="false" readonly="false" name="playerUsername" style="height: 20%; color: rgb(0, 0, 0); -unity-text-align: middle-left; background-color: rgb(0, 0, 0); width: 75%; margin-bottom: 20px; font-size: 18px;" />
+                <ui:IntegerField value="1000" name="playerChips" placeholder-text="Starting Chips" readonly="false" hide-placeholder-on-focus="false" max-length="999999" password="false" is-delayed="true" style="color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0); width: 75%; margin-bottom: 40px; -unity-text-align: middle-left; flex-direction: row-reverse; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; height: 20%; font-size: 18px;">
+                    <ui:Label text="Chips:" style="background-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255); font-size: 18px;" />
+                </ui:IntegerField>
+                <ui:Button text="Host" name="hostBtn" class="host" style="width: 75%; margin-bottom: 20px;" />
+                <ui:Button text="Join" name="joinBtn" class="join" style="width: 75%; margin-bottom: 20px;" />
+                <ui:Label selectable="false" emoji-fallback-support="true" name="infoLabel" style="display: none; align-items: center; justify-content: center; color: rgb(231, 19, 19);" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:GroupBox name="HostMenu" visible="false" style="display: flex;">
+            <ui:Label text="Host a Game" class="titleLabel" />
+            <ui:GroupBox name="GameCodeContainer">
+                <ui:Label text="Game Code:" name="GameCodeLabel" />
+                <ui:Label name="GameCode" style="-unity-text-align: middle-center; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);" />
+            </ui:GroupBox>
+            <ui:GroupBox name="HostButtonsContainer">
+                <ui:Button text="Host Game" name="startHostBtn" class="host" />
+                <ui:Button text="Back" name="backFromHostBtn" class="back" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:GroupBox name="JoinMenu" visible="false" style="display: none;">
+            <ui:Label text="Join a Game" class="titleLabel" />
+            <ui:GroupBox name="GameCodeContainer">
+                <ui:Label text="Game Code:" name="GameCodeLabel" />
+                <ui:TextField name="JoinGameCode" style="-unity-text-align: middle-center;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="JoinButtonsContainer">
+                <ui:Button text="Join Game" name="joinGameBtn" class="join" />
+                <ui:Button text="Back" name="backFromJoinBtn" class="back" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>
